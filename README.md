@@ -29,7 +29,7 @@ Education Swap application makes use of the following softwares:
 - Domain Name: https://namer002.hns.siasky.net/
 
 - skylink: `AABrsf9Qlz-rTOz_5vtmB7ue7kJvNz-hp3AxwhhgmcbaBg`
-- skylinkUrl: https://000f7i55raokq6cjma4s5tq1vm8scs5gsauklnghvs8enabtlf140ig.siasky.net/
+- skylinkUrl: https://0006ncfva2bjvaqctjvudur60utptri2dsrjv8d7e0os4630j73dk1g.siasky.net/
 - Deployed to: https://0006ncfva2bjvaqctjvudur60utptri2dsrjv8d7e0os4630j73dk1g.siasky.net/
 - Resolver Skylink: `sia://AQCUHdo53FQh8SMIqtXEBOpN8QSV0hrrvSu5TlTr-nA9YA`
 
