@@ -9,7 +9,6 @@ import Footer from './components/layout/footer/Footer'
 import Home from './components/home-container/home/Home'
 import PetDetails from './components/home-container/pet-details/PetDetails'
 import CreatePet from './components/create-post/CreatePet'
-// import { swapperAddress } from '../config'
 import SwapperContract from './artifacts/contracts/Swapper.sol/Swapper.json'
 
 function App() {
