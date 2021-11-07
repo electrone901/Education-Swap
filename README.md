@@ -1,5 +1,4 @@
 # Education Swap 👨‍🎓
-
 Education Swap is a platform for students to swap their tokens for stable coins. The way it works is that students can create a project to track their educational goals and receive financial support.
 
 With the IPFS chain, all projects and products created by users will be securely stored on the blockchain and can be referenced as the owner’s Intellectual Property.
