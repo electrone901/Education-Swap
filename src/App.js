@@ -16,10 +16,6 @@ function App() {
   const [address, setAddress] = useState('')
   let [contract, setContract] = useState(null)
 
-  const loadWeb3 = async () => {}
-
-  const getContract = async () => {}
-
   const connectWallet = async () => {
     const web3Modal = new Web3Modal()
     const connection = await web3Modal.connect()

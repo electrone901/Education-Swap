@@ -1,20 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React, {  useEffect } from 'react'
 import { useParams } from 'react-router'
-import FavoriteIcon from '@material-ui/icons/Favorite'
-import ShareIcon from '@material-ui/icons/Share'
+
 import {
-  TextField,
-  List,
-  ListItem,
-  ListItemAvatar,
-  ListItemText,
-  Avatar,
-  IconButton,
+
   Grid,
   Container,
-  Typography,
-  Button,
-  Card,
   StylesProvider,
 } from '@material-ui/core'
 import './PetDetails.css'
@@ -35,13 +25,6 @@ function PetDetails({ account, contractData }) {
 
   const getMetadata = async () => {}
 
-  const mintNFT = async (petId) => {}
-
-  const handleChange = (event) => {}
-
-  const handleSubmit = (event) => {}
-
-
 
   return (
     <StylesProvider injectFirst>
@@ -54,7 +37,7 @@ function PetDetails({ account, contractData }) {
             <Grid item xs={12} sm={6} className="grid-container">
               {/* Add pet details */}
 
-              
+
             </Grid>
 
             <Grid item xs={12} sm={6}>
