@@ -24,6 +24,4 @@ yarn-error.log*
 
 package-lock.json
 cache
-artifacts
-config.js
 .env
