@@ -19,7 +19,8 @@ import { StylesProvider } from '@material-ui/core/styles'
 import './Navbar.css'
 import logo from '../../../images/logo.jpg'
 
-export const Navbar = () => {
+export const Navbar = ({ address, connectWallet }) => {
+  console.log('🚀 ~ file: Navbar.js ~ line 23 ~ Navbar ~ account', address)
   const [anchorEl, setAnchorEl] = useState(null)
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState(null)
 
@@ -110,7 +111,7 @@ export const Navbar = () => {
             </Link>
             <Link to="/" className="whiteLink">
               <Typography className="title" variant="h6" noWrap>
-              Education Swap
+                Education Swap
               </Typography>
             </Link>
             <Button className="whiteLink" component={Link} to="/">
@@ -124,6 +125,30 @@ export const Navbar = () => {
             <div className="grow" />
             <div className="sectionDesktop">
               {/* Add Account  */}
+              {address ? (
+                <>
+                  <Button className="whiteLink">
+                    {address.substring(0, 8)}...{address.substring(32, 24)}
+                  </Button>
+                  <Button
+                    variant="contained"
+                    className="connected-btn"
+                    endIcon={<VerifiedUserSharpIcon />}
+                  >
+                    Connected
+                  </Button>
+                </>
+              ) : (
+                <Button
+                  variant="contained"
+                  className="connect-wallet-btn"
+                  onClick={() => {
+                    connectWallet()
+                  }}
+                >
+                  Connect Wallet
+                </Button>
+              )}
 
               <IconButton
                 edge="end"
