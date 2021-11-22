@@ -18,7 +18,7 @@ Education Swap application makes use of the following softwares:
 
 * `Kovalent Network` the network that we deployed our dApp.
 
-* `React Js, Material-ui, Web3` React Js for the frontend, Material-ui and Web3 to connect to blockchain.
+* `React Js, Material-ui, Web3` React Js for the frontend, Material-ui and Web3 to connect to blockchain.  
 
 # Homename
 
